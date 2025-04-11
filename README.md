@@ -1,6 +1,3 @@
-# Online Assessment System :computer:
-
-<img src="img/logo.png" alt="Assessment System Logo" width="150" height="150">
 
 ## Overview 🌟
 
@@ -30,43 +27,6 @@ The Online Assessment System is a feature-rich web application designed for cond
   - **Profile Management**: Update profile details conveniently from the Settings section.
   - **View Announcements**: Read announcements from teachers in the Messages section.
 
-## Screenshots 📸
-
-![Student Panel Login](screenshots/Screenshot_1.png)
-*Screenshot of the student login page displaying dynamic greeting text along with background.*
-
-
-![Student Panel Dashboard](screenshots/Screenshot_9.png)
-*Screenshot of the Student Panel Dashboard with exam-related general instructions.*
-
-
-![Student Panel Settings](screenshots/Screenshot_3.png)
-*Screenshot of the settings section in the student panel for updating profile details.*
-
-
-![Studetn Panel Exam section](screenshots/Screenshot_5.png)
-*Screenshot of the exam section in the student portal displaying all the unatttempted exams.*
-
-
-![Ongoing examination](screenshots/Screenshot_6.png)
-*Screenshot of the exam being attempted by the student.*
-
-
-![Studetn Panel Messages section](screenshots/Screenshot_8.png)
-*Screenshot of the messages section showing all the announcements from the respective teachers.*
-
-
-![Teacher Panel Dashboard](screenshots/Screenshot_10.png)
-*Screenshot of the Teacher Panel Dashboard showing statistics.*
-
-
-![Teacher Panel Exams section](screenshots/Screenshot_4.png)
-*Screenshot of adding exams for the students.*
-
-
-![Teacher Panel Records section](screenshots/Screenshot_11.png)
-*Screenshot of the student records maintained from the teacher panel.*
-
 
 ## How to Use 📖
 
@@ -89,20 +49,3 @@ The Online Assessment System is a feature-rich web application designed for cond
 
 1. Host the application on a localhost or server.
 2. Make sure to create a database named db_eval and then import the provided `db_eval.sql` file from the db foldedr into the server's database which you just created. The tables used are `atmpt_list`, `exm_list`, `message`, `qstn_list`, `student`, and `teacher`.
-
-## Notes ⚠️
-
-- The application implements basic security by storing MD5 hashes of passwords instead of plain text.
-- Currently teachers can add student accounts but teacher accounts must be added manually and password must be entered in MD5 value.
-- The credentials for the teacher login is username : `teacher`, password : `azimkrishna`.
-- Correct options are stored in the database and not inside js scripts to prevent malpractice.
-- The system is optimized for laptop and desktop screens with resolutions from 1920x1080 to 1440x900.
-- The greeting text and background of the login page change according to IST time, adding a personalized touch to the user experience.
-
-## Developer 👨‍💻
-
-- Developed by: Azim Krishna
-- Contact: azimbaji19@gmail.com
-- Feedback and Support 💌: I would love to hear your feedback on the Online Assessment System! If you have any suggestions, encounter issues, or need assistance, please feel free to reach out to me via email. Your feedback helps me improve and provide better solutions.
-
-Feel free to use this Online Assessment System and adapt it to your needs! 😃
